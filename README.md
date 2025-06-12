@@ -4,7 +4,7 @@ XLibre Xserver
 Xlibre is a fork of the Xorg Xserver, with lots of code cleanups
 and enhanced functionality.
 
-This fork of the X11Libre xserver was created to remove the divisive nature of the original project by removing any upstream politics and keeping the code. Please do not argue about politics here unless you want your issue to become locked.
+This fork of the X11Libre xserver was created to mitigate the divisive nature of the original project by removing any upstream politics and keeping the code. Please do not argue about politics here unless you want your issue to become locked.
 
 I'm not making any major code changes versus upstream, so send your bug reports there. Issues on here should only be used for meta-discussions.
 
