@@ -4,31 +4,12 @@ XLibre Xserver
 Xlibre is a fork of the Xorg Xserver, with lots of code cleanups
 and enhanced functionality.
 
-This fork was necessary since toxic elements within Xorg projects, moles
-from BigTech, are boycotting any substantial work on Xorg, in order to
-destroy the project, to eliminate competition of their own products.
-Classic "embrace, extend, extinguish" tactics.
+This fork of the X11Libre xserver was created to remove the divisive nature of the original project by removing any upstream politics and keeping the code. Please do not argue about politics here unless you want your issue to become locked.
 
-Right after journalists first began covering the planned fork Xlibre,
-on June 6th 2025, Redhat employees started a purge on the Xlibre founder's
-GitLab account on freedesktop.org: deleted the git repo, tickets, merge
-requests, etc, and so fired the shot that the whole world heard.
-
-This is an independent project, not at all affiliated with BigTech or any
-of their subsidiaries or tax evasion tools, nor any political activists
-groups, state actors, etc. It's explicitly free of any "DEI" or similar
-discriminatory policies. Anybody who's treating others nicely is welcomed.
-
-It doesn't matter which country you're coming from, your political views,
-your race, your sex, your age, your food menu, whether you wear boots or
-heels, whether you're furry or fairy, Conan or McKay, comic character, a
-small furry creature from Alpha Centauri, or just an boring average person.
-Anybody who's interested in bringing X forward is welcome.
-
-Together we'll make X great again!
+I'm not making any major code changes versus upstream, so send your bug reports there. Issues on here should only be used for meta-discussions.
 
 Upgrade notice
---------------
+--------
 
 * Module ABIs have changed - drivers MUST be recompiled against this Xserver
   version, otherwise the Xserver can crash or fail to start up correctly.
@@ -40,7 +21,7 @@ Upgrade notice
   need a cold reboot.
 
 * Proprietary Nvidia drivers might break: they still haven't managed to do
-  do even simple cleanups to catch up with Xorg master for about a year.
+  do even simple cleanups to catch up with Xorg master for about a 
   All attempts to get into direct mail contact have failed. We're trying to
   work around this, but cannot give any guarantees.
 
@@ -54,12 +35,12 @@ Driver repositories
 Since Redhat had deleted and banned all X11Libre repositories from freedesktop.org,
 the driver repositories are now moved to github:
 
-| Driver | Git repository |
+| Driver | Git repository 
 | --- | --- |
 | xf86-input-elographics:   | https://github.com/X11Libre/xf86-input-elographics    |
 | xf86-input-evdev:         | https://github.com/X11Libre/xf86-input-evdev          |
 | xf86-input-joystick:      | https://github.com/X11Libre/xf86-input-joystick       |
-| xf86-input-keyboard:      | https://github.com/X11Libre/xf86-input-keyboard       |
+| xf86-input-keyboard:      | ard       |
 | xf86-input-libinput:      | https://github.com/X11Libre/xf86-input-libinput       |
 | xf86-input-mouse:         | https://github.com/X11Libre/xf86-input-mouse          |
 | xf86-input-synaptics:     | https://github.com/X11Libre/xf86-input-synaptics      |
